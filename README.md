@@ -68,7 +68,7 @@ python manage.py runserver
 ```
 ## 3.3 POST /books/ : Thêm một cuốn sách mới.
 ```bash
-    URL: http://127.0.0.1:8000/books/
+    URL: http://127.0.0.1:8000/api/books/
     Method: POST
     Body: Chọn raw và JSON, ví dụ:
 
@@ -83,7 +83,7 @@ python manage.py runserver
 
 ## 3.4 PUT /books/<id>/ Cập nhật một cuốn sách hiện có.
 ```bash
-    URL: http://127.0.0.1:8000/books/1/ (Thay 1 bằng ID của sách)
+    URL: http://127.0.0.1:8000/api/books/1/ (Thay 1 bằng ID của sách)
     Method: PUT
     Body: Chọn raw và JSON, ví dụ:
     {
@@ -96,6 +96,6 @@ python manage.py runserver
 ```
 ## 3.5  DELETE /books/<id>/ :Xóa một cuốn sách cụ thể.
 ```bash
-    URL: http://127.0.0.1:8000/books/1/ (Thay 1 bằng ID của sách)
+    URL: http://127.0.0.1:8000/api/books/1/ (Thay 1 bằng ID của sách)
     Method: DELETE
 ```
